@@ -4,3 +4,14 @@ body{
     color: #B0C4DE;
 }
 
+.todoapp h1 {
+	text-align: center;
+	width: 100%;
+	font-size: 100px;
+    font-weight: 50px;
+	color: #996699;
+}
+.new {
+	padding: 20px 20px 20px 60px;
+
+}
