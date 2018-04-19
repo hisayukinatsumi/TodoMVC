@@ -5,19 +5,22 @@
 <script src="todo.js"></script>
 <title>TodoMVC</title>
 </head>
-<section class="todoapp" v-show="todos.length" v-cloak>
+<body>
+<section class="todoapp">
 <header class="header">
         <h1>todos</h1>
-    </header>
     <input class="newtodo"
-        autofocus
-        autocomplete="off"
-        v-on:keydown.enter="addtodo"
-        >
-</header>
-<section class ="main">
-</section>
+        autofocus>
+    </header>
+    <ul class="todo-list">
+        <div class="todoBar">
+            <div>
+               <p id="text"></p>
+            </div>
+        </div>
+    </ul>
 <footer class="footer"></footer>
+</body>
 </html>
 
 
